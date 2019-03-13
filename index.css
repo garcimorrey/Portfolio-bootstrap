@@ -1,0 +1,155 @@
+/* Modif Body */
+
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    background-color: #4aaaa5;
+    border-color: #dddddd;
+    color: #777777;
+}
+
+/* Modif Header + navbar */
+
+#brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 15vw;
+    padding: 25px;
+    border-radius: 25%;
+}
+
+ul {
+    margin-right: 15vw;
+}
+li {
+   border: solid #cccccc;
+   border-radius: 25%;
+   margin: 2px;
+   text-align: center;
+   color: #4aaaa5;
+}
+
+.navbar-brand-two {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 5px 70px;
+    border: solid #cccccc; 
+    border-radius: 25%;
+}
+
+.position-fixed {
+    background-color: #ffffff;
+    top:0px;
+    width: 100%;
+    border: solid #cccccc;
+    z-index: 2;
+}
+
+/* Modif main content */
+
+#maincontent {
+    color: #777777;
+    margin-top: 8em;
+    padding: 5em;
+    background-color: white;
+    z-index: 1;
+}
+
+#profilpicture {
+    margin-top: 1px;
+    width: 20em;
+    float: left;
+    border-radius:30%;
+}
+
+.project {
+   width: 18em;
+   margin: 30px;
+   padding: 10px;
+   border-radius: 15%;
+}
+
+
+#button {
+    background-color: #cccccc ;
+    border-color: #cccccc;
+}
+
+/*footer */
+
+#footer {   
+    position: fixed;
+    background: #666666;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .project {
+        width: 12em;
+     }
+     #profilpicture {
+        width: 12em;
+    }
+    .navbar-brand-two {
+        padding: 5px 70px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .project {
+        width: 14em;
+     }
+     #profilpicture {
+        width: 14em;
+    }
+    .navbar-brand-two {
+        padding: 5px 70px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .project {
+        width: 17em;
+     }
+     #profilpicture {
+        width: 17em;
+    }
+    .navbar-brand-two {
+        padding: 5px 90px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .project {
+        width: 18em;
+     }
+     #profilpicture {
+        width: 20em;
+    }
+    .navbar-brand-two {
+        padding: 5px 120px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .project {
+        width: 18em;
+     }
+     #profilpicture {
+        width: 20em;
+    }
+    .navbar-brand-two {
+        padding: 5px 150px;
+    }
+}
