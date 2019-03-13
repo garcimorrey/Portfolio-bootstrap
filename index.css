@@ -28,6 +28,10 @@ li {
    color: #4aaaa5;
 }
 
+li:hover {
+    background-color: #4aaaa5;
+}
+
 .navbar-brand-two {
     color: #ffffff;
     background-color: #4aaaa5;
@@ -68,10 +72,13 @@ li {
    border-radius: 15%;
 }
 
-
 #button {
     background-color: #cccccc ;
     border-color: #cccccc;
+}
+
+#button:hover {
+    background-color: #4aaaa5;
 }
 
 /*footer */
@@ -88,6 +95,8 @@ li {
 h4 {
     text-align: center;
 }
+
+/* MEDIA QUERIES */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
